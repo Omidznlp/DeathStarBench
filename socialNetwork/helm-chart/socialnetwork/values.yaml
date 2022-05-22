@@ -2,7 +2,7 @@ global:
   replicas: 1
   imagePullPolicy: "IfNotPresent"
   restartPolicy: Always
-  serviceType: LoadBalancer
+  serviceType: ClusterIP
   dockerRegistry: docker.io
   defaultImageVersion: latest
   nginx:
